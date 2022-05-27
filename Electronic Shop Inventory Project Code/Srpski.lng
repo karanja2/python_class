@@ -1,0 +1,300 @@
+ 
+[frmComp]
+frmComp.Caption=Komponente
+
+
+ 
+[MDI_Main]
+MDI_Main.Caption=
+mnuService.Caption=&Servis
+mComp.Caption=Komponente
+mRec.Caption=Racuni
+crtica0.Caption=-
+mUncharged.Caption=Nenaplaceni Racuni
+crtica8.Caption=-
+mPrint.Caption=Štampaj
+crtica9.Caption=-
+mExit.Caption=Izlaz
+mnuEdit.Caption=&Uredi
+mFindComp.Caption=Nadji Komponentu
+mFindRec.Caption=Nadji Racun
+mnuActions.Caption=&Akcija
+mAddCategory.Caption=Nova &Kategorija
+mAddComponent.Caption=Nova Ko&mponenta
+crtica1.Caption=-
+mAddRecord.Caption=&Novi Racun
+crtica2.Caption=-
+mDelCat.Caption=Izbriši Kategoriju
+mDelComp.Caption=Izbriši Komponentu
+crtica3.Caption=-
+mDelRec.Caption=Izbriši Racun
+mnuTools.Caption=&Alati
+mBackup.Caption=Kopija Baze
+mCompress.Caption=Kompresovanje Baze
+crtica5.Caption=-
+mSettings.Caption=&Podešavanja
+mnuWindow.Caption=Prozor
+mHorizontaly.Caption=Složi Norizontalno
+mVertically.Caption=Složi Vertikalno
+mCascade.Caption=Složi Kaskadno
+crtica6.Caption=-
+mCloseWin.Caption=Zatvori Sve Prozore
+mnuHelp.Caption=&Pomoc
+mHelp.Caption=Pomoc
+crtica7.Caption=-
+mAbout.Caption=O Programu...
+mPopup.Caption=PopUp
+pupRestore.Caption=Prikaži
+crtica11.Caption=-
+pupAbout.Caption=O Programu
+pupExit.Caption=Izlaz
+
+
+ 
+[frmRecord]
+frmRecord.Caption=Racuni
+cmdClose.Caption=Izlaz
+cmdNavi(3).Caption=8
+cmdNavi(2).Caption=4
+cmdNavi(1).Caption=3
+cmdNavi(0).Caption=7
+lblTrue.Caption=Da
+lblInfo(6).Caption=Placeno:
+lblInfo(5).Caption=Podaci o mušteriji:
+lblInfo(4).Caption=Opis rada:
+lblInfo(3).Caption=Prodati dijelovi:
+lblInfo(2).Caption=Cijena:
+lblInfo(1).Caption=Datum:
+lblInfo(0).Caption=Radnik:
+lblFalse.Caption=Ne
+
+
+ 
+[frmFindRecord]
+frmFindRecord.Caption=Nadji Racun
+cmdFind.Caption=Nadji sledeci
+cmdExit.Caption=Izlaz
+Frame.Caption=Pretraga
+obtnField(0).Caption=Radnik
+obtnField(1).Caption=Datum
+obtnField(2).Caption=Opis Rada
+obtnField(3).Caption=Podaci o mušteriji
+chkFilter(1).Caption=Gledaj velicinu slova
+chkFilter(0).Caption=Cijela rijec
+lblInfo.Caption=Unesi Rijec:
+
+
+ 
+[frmAbout]
+frmAbout.Caption=
+cmdExit.Caption=Izlaz
+lblInfo(0).Caption=Program za vodjenje inventara radionice 
+lblInfo(1).Caption=Autor: Refik Zaimoviæ
+
+
+ 
+[frmSettings]
+frmSettings.Caption=Podešavanja
+cmdCancel.Caption=Izlaz
+cmdOk.Caption=U Redu
+SetTab.Caption=Dodatno
+SetTab.TabCaption(0)=Opcije
+SetTab.TabCaption(1)=Opšte
+SetTab.TabCaption(2)=Dodatno
+chkCompress.Caption=Kompresuj bazu prilikom izlaza
+chkBackup.Caption=Napravi rezervnu kopiju prilikom izlaza
+chkSplash.Caption=Prikaži ekran programa prilikom starta
+chgSysTray.Caption=Spusti program u statusnu traku
+chkAutoStart.Caption=Pokreni program sa Windows-om
+lblLang.Caption=Podrazumijevani jezik:
+chkWarning.Caption=Prikazi nenaplacene racune prilikom starta
+chkComponents.Caption=Ucitaj prozor sa komponentama prilikom starta
+chkRecords.Caption=Ucitaj prozor sa racunima prilikom starta
+
+
+ 
+[frmLogin]
+frmLogin.Caption=Prijavljivanje
+cmdOk.Caption=U Redu
+cmdDelLog.Caption=Izbriši .log
+lblUser.Caption=Korisnicko ime:
+lblInfo.Caption=Korisnicko ime ne smije biti krace od 3 karaktera
+
+
+ 
+[frmAddRecord]
+frmAddRecord.Caption=Novi Racun
+cmdAction(2).Caption=Izlaz
+cmdAction(1).Caption=Ocisti
+cmdAction(0).Caption=Sacuvaj
+cboCharged.List(0)=cboCharged
+cboCharged.List(1)=Da
+cboCharged.List(2)=Ne
+Label.Caption=€
+lblInfo(6).Caption=Placeno:
+lblInfo(5).Caption=Podaci o mušteriji:
+lblInfo(4).Caption=Opis kvara:
+lblInfo(3).Caption=Prodati dijelovi:
+lblInfo(2).Caption=Cijena:
+lblInfo(1).Caption=Datum:
+lblInfo(0).Caption=Radnik:
+
+
+ 
+[basMain]
+ 
+[frmAddComp]
+frmAddComp.Caption=Nova komponenta
+cmdAction(2).Caption=Izlaz
+cmdAction(1).Caption=Ocisti
+cmdAction(0).Caption=Sacuvaj
+cboProduct.List(0)=cboProduct
+lbl(3).Caption=*
+lbl(2).Caption=*
+lbl(1).Caption=*
+lbl(0).Caption=*
+lblProduct.Caption=Kategorija:
+lblInfo(6).Caption=Ormaric:
+lblInfo(5).Caption=Kolicina:
+lblInfo(4).Caption=Cijena (<100):
+lblInfo(3).Caption=Cijena (10-100):
+lblInfo(2).Caption=Cijena (1-10):
+lblInfo(1).Caption=Opis:
+lblInfo(0).Caption=Komponenta:
+
+
+ 
+[frmDelComp]
+frmDelComp.Caption=Brisanje komponenti
+cmdCancel.Caption=Izlaz
+cmdDelete.Caption=Obriši
+lstComponent.List(0)=lstComponent
+cboCategory.List(0)=cboCategory
+lblInfo(1).Caption=Izaberi Komponentu
+lblInfo(0).Caption=Izaberi Kategoriju
+
+
+ 
+[frmFindComp]
+frmFindComp.Caption=Nadji Komponentu
+chkFilter(0).Caption=Cijela rijec
+chkFilter(1).Caption=Gledaj velicinu slova
+Frame.Caption=Pretraga
+obtnField(3).Caption=Ormaric
+obtnField(2).Caption=Opis
+obtnField(1).Caption=Komponenta
+obtnField(0).Caption=Kategorija
+cmdExit.Caption=Izlaz
+cmdFind.Caption=Nadji sledeci
+lblInfo.Caption=Unesi rijec:
+
+
+ 
+[UseIni]
+ 
+[basReg]
+ 
+[basSysTray]
+ 
+[frmSplash]
+frmSplash.Caption=
+
+
+ 
+[frmUncharged]
+frmUncharged.Caption=Nenaplaceni racuni
+
+
+ 
+[mCommonDialog]
+[Strings]
+0001=Kategorija
+0002=Komponenta
+0003=Opis
+0004=Cijena (1-10)
+0005=Cijena (10-100)
+0006=Cijena (100->)
+0007=Kolicina
+0008=Ormaric
+0009=Fajlovi baza podataka (*.mdb)|*.mdb
+0010=Kopija Baze
+0011=mdb
+0012=Program Za Vodenje Inventara Radionice  (Ver. 
+0014=Vrijeme prijave: (
+0015=Kopija baze se nalazi u:
+0016=Informacija
+0017=Kopija nije uspjela! Fascikla (
+0018=) ne postoji.
+0019=Provjerite putanju do fascikle u prozoru za podešavanje programa
+0020=Greška
+0021=Kompresija baze uspješna.
+0022=Informacije
+0023=Tekuca pozicija [
+0024=] - Ukupan broj unosa [
+0025=Promjena stanja racuna broj 
+0026= iz Nenaplaceno u Naplceno?
+0027=Upozorenje
+0028=DbKopija.mdb
+0029=Fajl Baze Podataka (*.mdb)|*.mdb
+0030=Kopija Baze Podataka
+0031=mdb
+0032=Prijavljen korisnik: (
+0033=Ne
+0034=Sacuvan Novi Unos
+0035=Informacija
+0036=Pogrešan Datum. Provjerite format datuma i pokušajte ponovo.
+0037=Greška
+0038=Podatak sa istim imenom vec postoji u bazi.
+0039=Promijenite podatak i pokušajte opet.
+0040=Greška
+0041=Greška broj: 
+0042=Opis greške: 
+0043=Nova greška!!!
+0044=Ne postoji baza podataka. Program ne može startovati.
+0045=Greška
+0046=Ukupno (
+0047=) unosa u bazi
+0048=Ukupno ( 
+0049=) unosa u bazi
+0050=Ukupno ( 
+0051=) unosa u bazi
+0052=Polje za kategoriju ja prazno ili komponenta sa tim imenom vec postoji u bazi.
+0053=Operacija nije izvršena.
+0054=Greška
+0055=Ukupno (
+0056=) unosa u bazi
+0057=Niste popunili sva polja ili komponenta vec postoji u bazi. 
+0058=Operacija nije izvršena.
+0059=Greška
+0060=Kategorija 
+0061= Izbrisana
+0062=Information
+0063=Nemoguce izbrisati 
+0064= zato što sadrži unose.
+0065=Najprije morate izbrisati sve unose vezane za tu kategoriju.
+0066=Informacija
+0067=Ništa nije oznaceno.
+0068=Informacija
+0069=Br
+0070=Radnik
+0071=Datum
+0072=Cijena
+0073=Prodati Dijelovi
+0074=Podaci o mušteriji
+0075=Da
+0076=Ne
+0078=Kategorija
+0079=Komponenta
+0080=Racun
+0081=Prikaži komponente
+0082=Prikaži racune
+0083=Prikaži nenaplacene racune
+0084=Dodaj stavku
+0085=Pretraga
+0086=Podešavanja
+0087=O programu
+0088=Pomoc
+0089=Izlaz
+0090=Upozorenje
+0091=Izaberite kategoriju
+

@@ -1,0 +1,300 @@
+ 
+[frmComp]
+frmComp.Caption=Components
+
+
+ 
+[MDI_Main]
+MDI_Main.Caption=
+mnuService.Caption=&Service
+mComp.Caption=View Components
+mRec.Caption=View Records
+crtica0.Caption=-
+mUncharged.Caption=Show Uncharged Records
+crtica8.Caption=-
+mPrint.Caption=Print
+crtica9.Caption=-
+mExit.Caption=Exit
+mnuEdit.Caption=&Edit
+mFindComp.Caption=Find Components
+mFindRec.Caption=Find Records
+mnuActions.Caption=&Actions
+mAddCategory.Caption=Add &Category
+mAddComponent.Caption=Add Co&mponent
+crtica1.Caption=-
+mAddRecord.Caption=Add &New Record
+crtica2.Caption=-
+mDelCat.Caption=Delete Category
+mDelComp.Caption=Delete Component
+crtica3.Caption=-
+mDelRec.Caption=Delete Record
+mnuTools.Caption=&Tools
+mBackup.Caption=Backup Database
+mCompress.Caption=Compress Database
+crtica5.Caption=-
+mSettings.Caption=&Settings
+mnuWindow.Caption=Window
+mHorizontaly.Caption=Tile Horizontaly
+mVertically.Caption=Tile Verticaly
+mCascade.Caption=Cascade
+crtica6.Caption=-
+mCloseWin.Caption=Close All Windows
+mnuHelp.Caption=&Help
+mHelp.Caption=Help
+crtica7.Caption=-
+mAbout.Caption=About...
+mPopup.Caption=PopUp
+pupRestore.Caption=Restore
+crtica11.Caption=-
+pupAbout.Caption=About
+pupExit.Caption=Exit
+
+
+ 
+[frmRecord]
+frmRecord.Caption=Records
+cmdClose.Caption=Close
+cmdNavi(3).Caption=8
+cmdNavi(2).Caption=4
+cmdNavi(1).Caption=3
+cmdNavi(0).Caption=7
+lblTrue.Caption=Yes
+lblInfo(6).Caption=Charged:
+lblInfo(5).Caption=Customer Info:
+lblInfo(4).Caption=Description:
+lblInfo(3).Caption=Parts Sold:
+lblInfo(2).Caption=Price:
+lblInfo(1).Caption=Date:
+lblInfo(0).Caption=Worker:
+lblFalse.Caption=No
+
+
+ 
+[frmFindRecord]
+frmFindRecord.Caption=Find record
+cmdFind.Caption=Find Next
+cmdExit.Caption=Cancel
+Frame.Caption=Search for
+obtnField(0).Caption=Worker
+obtnField(1).Caption=Date
+obtnField(2).Caption=Description
+obtnField(3).Caption=Customer Info
+chkFilter(1).Caption=Match Case
+chkFilter(0).Caption=Whole Word
+lblInfo.Caption=Find What:
+
+
+ 
+[frmAbout]
+frmAbout.Caption=
+cmdExit.Caption=Ok
+lblInfo(0).Caption=Servis and Workshop Inventory Application
+lblInfo(1).Caption=Author: Refik Zaimoviæ
+
+
+ 
+[frmSettings]
+frmSettings.Caption=Settings
+cmdCancel.Caption=Cancel
+cmdOk.Caption=Ok
+SetTab.Caption=Utility
+SetTab.TabCaption(0)=Options
+SetTab.TabCaption(1)=General
+SetTab.TabCaption(2)=Utility
+chkCompress.Caption=Auto compress database on exit
+chkBackup.Caption=Auto backup database on exit
+chkSplash.Caption=Show splash screen on startup
+chgSysTray.Caption=Minimize program to system tray
+chkAutoStart.Caption=Start application when Windows start
+lblLang.Caption=Default Language:
+chkWarning.Caption=Show uncharged records when application start
+chkComponents.Caption=Open components window when application start
+chkRecords.Caption=Open records window when application start
+
+
+ 
+[frmLogin]
+frmLogin.Caption=Login to application
+cmdOk.Caption=Ok
+cmdDelLog.Caption=Delete .log
+lblUser.Caption=User Name:
+lblInfo.Caption=User name must be minimum 3 characters long!
+
+
+ 
+[frmAddRecord]
+frmAddRecord.Caption=Add new record
+cmdAction(2).Caption=Cancel
+cmdAction(1).Caption=Clear
+cmdAction(0).Caption=Save
+cboCharged.List(0)=cboCharged
+cboCharged.List(1)=Yes
+cboCharged.List(2)=No
+Label.Caption=€
+lblInfo(6).Caption=Charged:
+lblInfo(5).Caption=Customer Info:
+lblInfo(4).Caption=Description:
+lblInfo(3).Caption=Parts Sold:
+lblInfo(2).Caption=Price:
+lblInfo(1).Caption=Date:
+lblInfo(0).Caption=Worker:
+
+
+ 
+[basMain]
+ 
+[frmAddComp]
+frmAddComp.Caption=Add new component
+cmdAction(2).Caption=Exit
+cmdAction(1).Caption=Clear
+cmdAction(0).Caption=Save
+cboProduct.List(0)=cboProduct
+lbl(3).Caption=*
+lbl(2).Caption=*
+lbl(1).Caption=*
+lbl(0).Caption=*
+lblProduct.Caption=Product Name:
+lblInfo(6).Caption=Box:
+lblInfo(5).Caption=Quantity:
+lblInfo(4).Caption=Price (< 100):
+lblInfo(3).Caption=Price (10-100):
+lblInfo(2).Caption=Price (1-10):
+lblInfo(1).Caption=Description:
+lblInfo(0).Caption=Code:
+
+
+ 
+[frmDelComp]
+frmDelComp.Caption=Delete component
+cmdCancel.Caption=Cancel
+cmdDelete.Caption=Delete
+lstComponent.List(0)=lstComponent
+cboCategory.List(0)=cboCategory
+lblInfo(1).Caption=Select Componnent
+lblInfo(0).Caption=Select Category
+
+
+ 
+[frmFindComp]
+frmFindComp.Caption=Find component
+chkFilter(0).Caption=Whole Word
+chkFilter(1).Caption=Match Case
+Frame.Caption=Search for
+obtnField(3).Caption=Box Number
+obtnField(2).Caption=Description
+obtnField(1).Caption=Code
+obtnField(0).Caption=Product Name
+cmdExit.Caption=Cancel
+cmdFind.Caption=Find Next
+lblInfo.Caption=Find What:
+
+
+ 
+[UseIni]
+ 
+[basReg]
+ 
+[basSysTray]
+
+[frmSplash]
+frmSplash.Caption=
+
+
+ 
+[frmUncharged]
+frmUncharged.Caption=Uncharged records
+
+
+ 
+[mCommonDialog]
+[Strings]
+0001=Group
+0002=Code
+0003=Description
+0004=Price (1-10)
+0005=Price (10-100)
+0006=Price (100->)
+0007=Quantity
+0008=Box
+0009=Database Files (*.mdb)|*.mdb
+0010=Database Backup
+0011=mdb
+0012=Service & Workshop Inventory Application (Ver. 
+0014=Login time: (
+0015=Copy od database is located in:
+0016=Information
+0017=Backup failed! Folder (
+0018=) not exist.
+0019=Check database Auto Backup folder in application settings
+0020=Error
+0021=Database compresion succesful.
+0022=Information
+0023=Current record [
+0024=] - Total record count [
+0025=Change state of record number 
+0026= from Uncharged to Charged?
+0027=Warning
+0028=DbBackup.mdb
+0029=Database File (*.mdb)|*.mdb
+0030=Database Backup
+0031=mdb
+0032=Loged user: (
+0033=No
+0034=New Record Saved
+0035=Information
+0036=Wrong date. Check date format and try again.
+0037=Error
+0038=Cannot save data. A record with name you specified aready exists.
+0039=Change data and try again.
+0040=Error
+0041=Error Number: 
+0042=Error Description: 
+0043=New Error!!!
+0044=No database in application folder! Program can not start!
+0045=Error
+0046=Total 
+0047= records in database
+0048=Total 
+0049= records in database
+0050=Total 
+0051= records in database
+0052=Either Product Name field is empty or name already exist in database.
+0053=Operation is not completed.
+0054=Error
+0055=Total 
+0056= records in database
+0057=You did not fill all required boxes and/or code name already exists in database. 
+0058=Operation is not completed.
+0059=Error
+0060=Category
+0061= deleted
+0062=Information
+0063=Can not delete (
+0064=) because it contains records.
+0065=You must first delete all records related to this category
+0066=Information
+0067=Nothing is selected.
+0068=Information
+0069=No
+0070=Worked
+0071=Date
+0072=Price
+0073=Parts Sold
+0074=Customer Info
+0075=Yes
+0076=No
+0078=Category
+0079=Component
+0080=Record
+0081=Show Components
+0082=Show Records
+0083=Show Uncharged Bills
+0084=Add Item
+0085=Find Item
+0086=Settings
+0087=About
+0088=Help
+0089=Exit
+0090=Warning
+0091=You must select Category first
+
